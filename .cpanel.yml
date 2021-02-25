@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/websi4jk/public_html/
-    - /bin/cp test1.txt $git_test
+    - export DEPLOYPATH=/home/websi4jk/public_html/git_test/
+    - /bin/cp test1.txt $DEPLOYPATH
